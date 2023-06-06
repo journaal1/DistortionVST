@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0647B957AB3246EC99CB0D79 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3533ACD93D7045A6B6834EEA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A7CE53B37467B847E93D9221 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A2054D65770E41B0828BC34A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE736F7C4AB34F0CBB9CE21F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6D6B212FFA0261DC79637295 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				66A06A6460F3468FAF78EF54 /* PBXTargetDependency */,
+				437CB7190D534DBAAA73AF34 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05886058D0D745B38A2A6EA6 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXBuildFile; fileRef = E49C72E1FB344349B10BBA2B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */; };
+		0BD7CC09C29141789912892E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXBuildFile; fileRef = BB496081D073444FBC22A939 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */; };
+		0D9BDEEB36B645D98F33B32B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 214A5B4C20D94C9089AE66BC /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		37B29880A7D04284A2D7F538 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXBuildFile; fileRef = C12EA3BA26A64C7D86FC2C0E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */; };
+		67A9A077BF3A40EAA6A7DDA8 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXBuildFile; fileRef = B6808CC9C7AC4B1A90871E91 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */; };
+		7745AEA04B97486A91EB0980 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 60DABE7AD13641E687BCFB7D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */; };
+		86E331EACA1A4A8BB082EC76 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXBuildFile; fileRef = B3E9F54B38694AEA8FDC671C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */; };
+		A47398B1A36C4D5E93F64A03 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXBuildFile; fileRef = 975D88D2467F4DF9A90B44A5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */; };
+		B70DB4B8881D47E2959CAE78 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXBuildFile; fileRef = 61819857928F46D18EAAABB7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */; };
+		D61BB67BD0B441C99B124D10 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXBuildFile; fileRef = 02A58C6A9C9844D1AC1F927E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */; };
+		D8B6E0BD1BF7457A88BD0A28 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C355A647BA0340D79AE89F30 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */; };
+		E0B93CBCABB743F0936F0254 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXBuildFile; fileRef = 10A549928ED647AD8025F51C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7EB7D2F79D2A43E6831E7C36 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C9D2CBD6C860423897AD9601 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		33A93DEF8B0342CA8ED1B955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D28EE297F34566931EC36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0647B957AB3246EC99CB0D79;
+			remoteInfo = ZERO_CHECK;
+		};
+		BD4403DB790B4CB0BA16B714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D28EE297F34566931EC36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7599FB7C38A4F348936E836;
+			remoteInfo = adelay;
+		};
+		FB3503FABC72498F8CF3DCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D28EE297F34566931EC36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0647B957AB3246EC99CB0D79;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A58C6A9C9844D1AC1F927E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = versionparsertest.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp; sourceTree = "<absolute>"; };
+		10A549928ED647AD8025F51C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelaycontroller.cpp; path = source/adelaycontroller.cpp; sourceTree = SOURCE_ROOT; };
+		1B2D56E2045C4857B8F5F084 /* adelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = adelay.bundle/Contents/MacOS/adelay; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A5B4C20D94C9089AE66BC /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		60DABE7AD13641E687BCFB7D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		61819857928F46D18EAAABB7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayprocessor.h; path = source/adelayprocessor.h; sourceTree = SOURCE_ROOT; };
+		975D88D2467F4DF9A90B44A5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		B3E9F54B38694AEA8FDC671C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayids.h; path = source/adelayids.h; sourceTree = SOURCE_ROOT; };
+		B6808CC9C7AC4B1A90871E91 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelaycontroller.h; path = source/adelaycontroller.h; sourceTree = SOURCE_ROOT; };
+		BB496081D073444FBC22A939 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ringbuffertest.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp; sourceTree = "<absolute>"; };
+		C12EA3BA26A64C7D86FC2C0E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelayprocessor.cpp; path = source/adelayprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		C355A647BA0340D79AE89F30 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CB8136AAE2CE46DA842873C0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E49C72E1FB344349B10BBA2B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exampletest.cpp; path = source/exampletest.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817FA8A4842148A581421F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B78C0A9B4C493395B14CD8 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				894B87C6517E445A9117F94C /* adelay */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		74E4B54382B5450E84F60F0C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A549928ED647AD8025F51C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				C12EA3BA26A64C7D86FC2C0E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				E49C72E1FB344349B10BBA2B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				60DABE7AD13641E687BCFB7D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				214A5B4C20D94C9089AE66BC /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				BB496081D073444FBC22A939 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				02A58C6A9C9844D1AC1F927E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		76897182710C4EA7A6C30640 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				852D0BC6328C48C9B28DC195 /* CMake Rules */,
+				CB8136AAE2CE46DA842873C0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		852D0BC6328C48C9B28DC195 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		894B87C6517E445A9117F94C /* adelay */ = {
+			isa = PBXGroup;
+			children = (
+				74E4B54382B5450E84F60F0C /* Source Files */,
+				A1271896DFB1437C92FEB52B /* Header Files */,
+				C355A647BA0340D79AE89F30 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+			);
+			name = adelay;
+			sourceTree = "<group>";
+		};
+		A1271896DFB1437C92FEB52B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6808CC9C7AC4B1A90871E91 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */,
+				B3E9F54B38694AEA8FDC671C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */,
+				61819857928F46D18EAAABB7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */,
+				975D88D2467F4DF9A90B44A5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B75F5789DFC64BB380EDCB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F288EF08B8CC40F4A3B7DACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2D56E2045C4857B8F5F084 /* adelay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5747C887DE4361AAE0F410 = {
+			isa = PBXGroup;
+			children = (
+				00B78C0A9B4C493395B14CD8 /* PlugInExamples */,
+				76897182710C4EA7A6C30640 /* ALL_BUILD */,
+				F288EF08B8CC40F4A3B7DACB /* Products */,
+				B75F5789DFC64BB380EDCB95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7599FB7C38A4F348936E836 /* adelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F43858EA2064A3D97733339 /* Build configuration list for PBXNativeTarget "adelay" */;
+			buildPhases = (
+				C62D6B6EAC44162FE7C44A5E /* CMake PreBuild Rules */,
+				5EA922D2EC354D9BAE6F2D6F /* Sources */,
+				817FA8A4842148A581421F42 /* Frameworks */,
+				8DB583FD6997E39C0613AEBA /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D611F600EDAD487D81FDF18E /* PBXTargetDependency */,
+			);
+			name = adelay;
+			productName = adelay;
+			productReference = 1B2D56E2045C4857B8F5F084 /* adelay */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D28EE297F34566931EC36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4231ADA76EE84DC6BE3C2F19 /* Build configuration list for PBXProject "smtg-vst3-adelay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C9D2CBD6C860423897AD9601 /* Debug */,
+				7EB7D2F79D2A43E6831E7C36 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FD5747C887DE4361AAE0F410;
+			projectDirPath = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay;
+			projectRoot = "";
+			targets = (
+				A2054D65770E41B0828BC34A /* ALL_BUILD */,
+				0647B957AB3246EC99CB0D79 /* ZERO_CHECK */,
+				A7599FB7C38A4F348936E836 /* adelay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6D6B212FFA0261DC79637295 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8DB583FD6997E39C0613AEBA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin/Debug/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin/Debug/validator /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3 
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin/Release/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Distorion/build/bin/Release/validator  /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A7CE53B37467B847E93D9221 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  make -f /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  make -f /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C62D6B6EAC44162FE7C44A5E /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug/adelay.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release/adelay.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA922D2EC354D9BAE6F2D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B93CBCABB743F0936F0254 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				37B29880A7D04284A2D7F538 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				05886058D0D745B38A2A6EA6 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				7745AEA04B97486A91EB0980 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				0D9BDEEB36B645D98F33B32B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				0BD7CC09C29141789912892E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				D61BB67BD0B441C99B124D10 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437CB7190D534DBAAA73AF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0647B957AB3246EC99CB0D79 /* ZERO_CHECK */;
+			targetProxy = FB3503FABC72498F8CF3DCDF /* PBXContainerItemProxy */;
+		};
+		66A06A6460F3468FAF78EF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7599FB7C38A4F348936E836 /* adelay */;
+			targetProxy = BD4403DB790B4CB0BA16B714 /* PBXContainerItemProxy */;
+		};
+		D611F600EDAD487D81FDF18E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0647B957AB3246EC99CB0D79 /* ZERO_CHECK */;
+			targetProxy = 33A93DEF8B0342CA8ED1B955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ED14467346A43CAB4B46D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		55FFB5FB8F1E4337A64670AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Debug/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Debug/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Debug/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
+				PRODUCT_NAME = adelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Distorion/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		659250C86A2E47FB83F934B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		75E9763FE89343C4B12D34DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/build;
+			};
+			name = Debug;
+		};
+		9197092FCB98459995C351C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CD56686BC729453693A0DDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F3CFB0C8082546A497151FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/build;
+			};
+			name = Release;
+		};
+		F6904138360E4055B55D0792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Distorion/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Release/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Release/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Release/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Distorion/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
+				PRODUCT_NAME = adelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Distorion/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F43858EA2064A3D97733339 /* Build configuration list for PBXNativeTarget "adelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FFB5FB8F1E4337A64670AC /* Debug */,
+				F6904138360E4055B55D0792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3533ACD93D7045A6B6834EEA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9197092FCB98459995C351C0 /* Debug */,
+				CD56686BC729453693A0DDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4231ADA76EE84DC6BE3C2F19 /* Build configuration list for PBXProject "smtg-vst3-adelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E9763FE89343C4B12D34DF /* Debug */,
+				F3CFB0C8082546A497151FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE736F7C4AB34F0CBB9CE21F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED14467346A43CAB4B46D28 /* Debug */,
+				659250C86A2E47FB83F934B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D28EE297F34566931EC36D /* Project object */;
+}

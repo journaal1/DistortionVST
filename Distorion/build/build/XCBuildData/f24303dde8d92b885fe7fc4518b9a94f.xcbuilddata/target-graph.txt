@@ -1,0 +1,43 @@
+Target dependency graph (12 targets)
+vstgui in Distorion, no dependencies
+vstgui_uidescription in Distorion, depends on:
+vstgui in Distorion (explicit)
+base in Distorion, no dependencies
+vstgui_support in Distorion, depends on:
+vstgui in Distorion (explicit)
+vstgui_uidescription in Distorion (explicit)
+base in Distorion (explicit)
+pluginterfaces in Distorion, no dependencies
+sdk_common in Distorion, depends on:
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk in Distorion, depends on:
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk_common in Distorion (explicit)
+sdk_hosting in Distorion, depends on:
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk_common in Distorion (explicit)
+validator in Distorion, depends on:
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk_common in Distorion (explicit)
+sdk_hosting in Distorion (explicit)
+moduleinfotool in Distorion, depends on:
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk_common in Distorion (explicit)
+sdk_hosting in Distorion (explicit)
+ZERO_CHECK in Distorion, no dependencies
+Distorion in Distorion, depends on:
+vstgui_support in Distorion (explicit)
+vstgui in Distorion (explicit)
+vstgui_uidescription in Distorion (explicit)
+pluginterfaces in Distorion (explicit)
+base in Distorion (explicit)
+sdk_common in Distorion (explicit)
+sdk in Distorion (explicit)
+validator in Distorion (explicit)
+moduleinfotool in Distorion (explicit)
+ZERO_CHECK in Distorion (explicit)
