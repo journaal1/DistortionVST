@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7334E3618FB94226AA288D58 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B7725738B0354498BB077D02 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BC5694975453D46989D3B200 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		95A90AF4D531425294864E4A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A15ADC48D7D44688AC22A77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F5F805CC112FC86582B888F7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				717B73FF0B3740F2AD85C2F1 /* PBXTargetDependency */,
+				EE344A5CA53146869F881931 /* PBXTargetDependency */,
+				4568F8E6A5B348F2A60266EE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04BAE028F7424ED9A78E04D7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = 254FAB7BB6B948C6A6AB6336 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		050B6E8C05224201A3B2D56C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1F2C338C171B4040857933CE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		195BDB4C7C0E4915B3A3773D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 135B911C1D264073AF699F6C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		244F620AEE8643F9BFC534A6 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 407C9A777C8847B5A2DBE211 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		3419227DC31844CBBE3FC49C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXBuildFile; fileRef = 5A867716B2574694B8C02E2F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */; };
+		35B4B1DD70D8467993DDC744 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXBuildFile; fileRef = 17CAF09130B540CE884ADF0A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */; };
+		3A04266E5D814DD6A286AA9D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 806E2509EAE9418A9BEFE05D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */; };
+		3CDAB94C081A43AD9DF013B8 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXBuildFile; fileRef = 18AA9916E04E4A1E812767AD /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */; };
+		442A962B8F864519A8EF0E18 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = D1F207C1DA454048AC898FE7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */; };
+		442D9A12399942B5A0D2AEDB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = 0D46C7F7F18E4738BA31DA12 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		49FC6E4C8ED645AF96CFF7A3 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXBuildFile; fileRef = EDAD3AAA41554B31B87379F0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */; };
+		5AA509FB756E4FF8AE09D54E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = 977998FBEFF346A6AB15DC10 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */; };
+		5D55A3EFD4C84D0E817AEE74 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 1D924693CBD44298BACD3233 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		5F700426D53B4D49A2A10EF7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = B3335A4DFA3349C9ADC48047 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+		5FCF9D7A1EC24B01A7C6AE3C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXBuildFile; fileRef = 33F1562CCE1146A6B407EF88 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */; };
+		631A2C14AE4445E282F7258B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXBuildFile; fileRef = 2637AD67DD624CFA91CB8866 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */; };
+		65C33F6D6F3A427CA53F00FF /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = CE8F1157B03540F8B20C39AA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+		7120F350915C4DE9B44F4C4B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = BF167049B3B64927B76AF87B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		7596AA564DEE4F3CADBB9F3A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXBuildFile; fileRef = 3B2A33520FA349A29390F4FF /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */; };
+		81AAA136615E45939EA641A9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXBuildFile; fileRef = E295F72A003C4717BC82D380 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */; };
+		887C36A61E0146D49D1D0C2C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = 2E6CA9ADAC0F474EA3A0698B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		9B291DAB13174082A6F0EC79 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXBuildFile; fileRef = B180C434ED454DF19A39B8BE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */; };
+		9CB5BE02B7A54B6788DF0D16 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 70380098363E41E3A6971251 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		A402908B52664A688D2A3B03 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = 965B910C94BB4E2CA8265AAE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		A9F6D655BBB4420F97A99B40 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXBuildFile; fileRef = 5767F32EE7DB4871A0E2BBB1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */; };
+		ABC9CEB333614BEEB19608F7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 17E8619AAA56409FAF0AE8D5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		C17A9F4A1A434824939BC41D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = BDA60F8253B145D2BE699559 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		C21010296F9844348F0BA7BC /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = 4B36288904BB4521826CE372 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		C4C48C9B5DA04D56AFC02852 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = B4E5B12325B54179A4613468 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		CAEABAA39F4D4642B95AD249 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = 766EFE64DEF548B6BA5B0A22 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		CFDFC7F5B4BA435E8091D6DB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = 7C0FD7CD9A004C628B356AC1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		D1EABB42ED2A4082A9848CD0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXBuildFile; fileRef = A7E88F2EC905482397236622 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */; };
+		DB036D60C0024B0D862BC282 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AB6F6735C73A47B89ACE9382 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		DDB7DD9FC67B431AADC561B2 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXBuildFile; fileRef = D3E5922DDFBD42EFA35CD230 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */; };
+		E8074C70536741429142CE43 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXBuildFile; fileRef = 7BDB2F7F24FB4AF58A301078 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */; };
+		E86A413A18C04F4CBE8D93D8 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = BBD96C5FE1E84097A056F2A9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+		EEAF2DB3153947AF905F2003 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXBuildFile; fileRef = FB56689DCA544F4CBC9F1105 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */; };
+		F19C27BC1E854F7AB2B83694 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXBuildFile; fileRef = 75C57B2500DA4C9AA20AD7DE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */; };
+		F1F27D70F13F49A19AA66837 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 27F081E3AAC54B30B683BEE0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		F624476C5C554BB4B7FE7D43 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 3201935B7BFB4FE391DFD943 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		41732B1C0F08404DAEDFDFDD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D3703B5D2BA141D79A566863 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4AB73965684C5EAE55D775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF41F3934D804F089C0EADFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334E3618FB94226AA288D58;
+			remoteInfo = ZERO_CHECK;
+		};
+		211BD149C2174999A6354574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF41F3934D804F089C0EADFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334E3618FB94226AA288D58;
+			remoteInfo = ZERO_CHECK;
+		};
+		2F68C52B9D574E9CA0B7CB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF41F3934D804F089C0EADFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334E3618FB94226AA288D58;
+			remoteInfo = ZERO_CHECK;
+		};
+		A0F7763E55B44C12B0320733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF41F3934D804F089C0EADFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FF45361E3E46E398D56D73;
+			remoteInfo = again;
+		};
+		DFE7FE180AD747FDBFDF213B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF41F3934D804F089C0EADFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A519F0CC41B84E408B480E63;
+			remoteInfo = againsimple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CD4FA7661E4F96AE44A842 /* againsimple */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = againsimple.bundle/Contents/MacOS/againsimple; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D46C7F7F18E4738BA31DA12 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		135B911C1D264073AF699F6C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		17CAF09130B540CE884ADF0A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = again.h; path = source/again.h; sourceTree = SOURCE_ROOT; };
+		17E8619AAA56409FAF0AE8D5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		18AA9916E04E4A1E812767AD /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcontroller.h; path = source/againcontroller.h; sourceTree = SOURCE_ROOT; };
+		1D924693CBD44298BACD3233 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		1F2C338C171B4040857933CE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		254FAB7BB6B948C6A6AB6336 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		2637AD67DD624CFA91CB8866 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcids.h; path = source/againcids.h; sourceTree = SOURCE_ROOT; };
+		27F081E3AAC54B30B683BEE0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		2E6CA9ADAC0F474EA3A0698B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		30AC472BCA8B4327A59C32B2 /* again */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = again.bundle/Contents/MacOS/again; sourceTree = BUILT_PRODUCTS_DIR; };
+		3201935B7BFB4FE391DFD943 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		33F1562CCE1146A6B407EF88 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstsinglecomponenteffect.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp; sourceTree = "<absolute>"; };
+		3B2A33520FA349A29390F4FF /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = again.cpp; path = source/again.cpp; sourceTree = SOURCE_ROOT; };
+		407C9A777C8847B5A2DBE211 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		4B36288904BB4521826CE372 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		5767F32EE7DB4871A0E2BBB1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsidechain.h; path = source/againsidechain.h; sourceTree = SOURCE_ROOT; };
+		5A867716B2574694B8C02E2F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againprocess.h; path = source/againprocess.h; sourceTree = SOURCE_ROOT; };
+		70380098363E41E3A6971251 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		75C57B2500DA4C9AA20AD7DE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againentry.cpp; path = source/againentry.cpp; sourceTree = SOURCE_ROOT; };
+		766EFE64DEF548B6BA5B0A22 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		7BDB2F7F24FB4AF58A301078 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png; sourceTree = SOURCE_ROOT; };
+		7C0FD7CD9A004C628B356AC1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		806E2509EAE9418A9BEFE05D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againcontroller.cpp; path = source/againcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		965B910C94BB4E2CA8265AAE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		977998FBEFF346A6AB15DC10 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		A7E88F2EC905482397236622 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstsinglecomponenteffect.h; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h; sourceTree = "<absolute>"; };
+		AB6F6735C73A47B89ACE9382 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B180C434ED454DF19A39B8BE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againuimessagecontroller.h; path = source/againuimessagecontroller.h; sourceTree = SOURCE_ROOT; };
+		B3335A4DFA3349C9ADC48047 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		B4E5B12325B54179A4613468 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		BBD96C5FE1E84097A056F2A9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		BDA60F8253B145D2BE699559 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		BF167049B3B64927B76AF87B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		CE8F1157B03540F8B20C39AA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		D1F207C1DA454048AC898FE7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		D3694C35D9CE4B5EBD2C24D1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3E5922DDFBD42EFA35CD230 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsimple.cpp; path = source/againsimple.cpp; sourceTree = SOURCE_ROOT; };
+		E295F72A003C4717BC82D380 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsimple.h; path = source/againsimple.h; sourceTree = SOURCE_ROOT; };
+		EDAD3AAA41554B31B87379F0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsidechain.cpp; path = source/againsidechain.cpp; sourceTree = SOURCE_ROOT; };
+		FB56689DCA544F4CBC9F1105 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DDDF81B76224AB8ABEFCB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5554EC53694FFA95CB0A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137E8DE07A374DAEBE0E454A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2A33520FA349A29390F4FF /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				806E2509EAE9418A9BEFE05D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				75C57B2500DA4C9AA20AD7DE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				EDAD3AAA41554B31B87379F0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				407C9A777C8847B5A2DBE211 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		16E26CBF826F4E3381D7AFA7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA28EE29D14D319B9CB5DC /* CMake Rules */,
+				D3694C35D9CE4B5EBD2C24D1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		374F081E042D4DA5870DC89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C8D699B56E44535ADE7F23E /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				88D4A7C241854069897A39FB /* again */,
+				8A9139C2936C4562A4EAAC4E /* againsimple */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		41612F59714D46F9AF6DA829 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E6CA9ADAC0F474EA3A0698B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				E295F72A003C4717BC82D380 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */,
+				965B910C94BB4E2CA8265AAE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+				A7E88F2EC905482397236622 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		43F42E3C2979444294C31C96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27F081E3AAC54B30B683BEE0 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				B4E5B12325B54179A4613468 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				BF167049B3B64927B76AF87B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				4B36288904BB4521826CE372 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				B3335A4DFA3349C9ADC48047 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				135B911C1D264073AF699F6C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5026CBE6BCC0439B9CF046E2 = {
+			isa = PBXGroup;
+			children = (
+				3C8D699B56E44535ADE7F23E /* PlugInExamples */,
+				16E26CBF826F4E3381D7AFA7 /* ALL_BUILD */,
+				B809517AA59B461AA0410932 /* Products */,
+				374F081E042D4DA5870DC89B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABA28EE29D14D319B9CB5DC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E480994E6D74B5D9282504B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				17CAF09130B540CE884ADF0A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */,
+				2637AD67DD624CFA91CB8866 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */,
+				18AA9916E04E4A1E812767AD /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */,
+				254FAB7BB6B948C6A6AB6336 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				5A867716B2574694B8C02E2F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */,
+				5767F32EE7DB4871A0E2BBB1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */,
+				B180C434ED454DF19A39B8BE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */,
+				BDA60F8253B145D2BE699559 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		88D4A7C241854069897A39FB /* again */ = {
+			isa = PBXGroup;
+			children = (
+				137E8DE07A374DAEBE0E454A /* Source Files */,
+				7E480994E6D74B5D9282504B /* Header Files */,
+				CB1B1CD8113743A99DF2BBC4 /* Resources */,
+				AB6F6735C73A47B89ACE9382 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				CE8F1157B03540F8B20C39AA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = again;
+			sourceTree = "<group>";
+		};
+		8A9139C2936C4562A4EAAC4E /* againsimple */ = {
+			isa = PBXGroup;
+			children = (
+				AB05E98C05744E1D83FAF416 /* Source Files */,
+				41612F59714D46F9AF6DA829 /* Header Files */,
+				43F42E3C2979444294C31C96 /* Resources */,
+				1F2C338C171B4040857933CE /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				BBD96C5FE1E84097A056F2A9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = againsimple;
+			sourceTree = "<group>";
+		};
+		AB05E98C05744E1D83FAF416 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5922DDFBD42EFA35CD230 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				70380098363E41E3A6971251 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				33F1562CCE1146A6B407EF88 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B809517AA59B461AA0410932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30AC472BCA8B4327A59C32B2 /* again */,
+				06CD4FA7661E4F96AE44A842 /* againsimple */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1B1CD8113743A99DF2BBC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB56689DCA544F4CBC9F1105 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				977998FBEFF346A6AB15DC10 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				7BDB2F7F24FB4AF58A301078 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				D1F207C1DA454048AC898FE7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+				1D924693CBD44298BACD3233 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				0D46C7F7F18E4738BA31DA12 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				7C0FD7CD9A004C628B356AC1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				766EFE64DEF548B6BA5B0A22 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				3201935B7BFB4FE391DFD943 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				17E8619AAA56409FAF0AE8D5 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48FF45361E3E46E398D56D73 /* again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683F0EA330F44439833A1FCE /* Build configuration list for PBXNativeTarget "again" */;
+			buildPhases = (
+				90D796569263D36E62657D41 /* CMake PreBuild Rules */,
+				D12FC111A3BC41BEA8DD662E /* Resources */,
+				776AC35085B84A50A8D59087 /* Copy files */,
+				3FDC2856984248E6ADB61B3C /* Sources */,
+				6DDDF81B76224AB8ABEFCB23 /* Frameworks */,
+				8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4208B99A16A34B5CB50AE47B /* PBXTargetDependency */,
+			);
+			name = again;
+			productName = again;
+			productReference = 30AC472BCA8B4327A59C32B2 /* again */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A519F0CC41B84E408B480E63 /* againsimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486476A15EF4A6DAEBA56C8 /* Build configuration list for PBXNativeTarget "againsimple" */;
+			buildPhases = (
+				B2E992606C094E349D2EA5DD /* CMake PreBuild Rules */,
+				4E9F56AB47CD46349849BE23 /* Resources */,
+				C65A454FBF0A468986C96CA4 /* Sources */,
+				8C5554EC53694FFA95CB0A06 /* Frameworks */,
+				B28AA52707A4BD9B16E8BDCA /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A835C691484C0DA3201669 /* PBXTargetDependency */,
+			);
+			name = againsimple;
+			productName = againsimple;
+			productReference = 06CD4FA7661E4F96AE44A842 /* againsimple */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF41F3934D804F089C0EADFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 3B036DA9FA354ADDA14E2E63 /* Build configuration list for PBXProject "smtg-vst3-again" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D3703B5D2BA141D79A566863 /* Debug */,
+				41732B1C0F08404DAEDFDFDD /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5026CBE6BCC0439B9CF046E2;
+			projectDirPath = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again;
+			projectRoot = "";
+			targets = (
+				95A90AF4D531425294864E4A /* ALL_BUILD */,
+				7334E3618FB94226AA288D58 /* ZERO_CHECK */,
+				48FF45361E3E46E398D56D73 /* again */,
+				A519F0CC41B84E408B480E63 /* againsimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/validator /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3 
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/validator  /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		90D796569263D36E62657D41 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/again.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/again.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B28AA52707A4BD9B16E8BDCA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/validator /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3 
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/validator  /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B2E992606C094E349D2EA5DD /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/againsimple.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/againsimple.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BC5694975453D46989D3B200 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  make -f /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  make -f /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F5F805CC112FC86582B888F7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E9F56AB47CD46349849BE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A413A18C04F4CBE8D93D8 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				F1F27D70F13F49A19AA66837 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				C4C48C9B5DA04D56AFC02852 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				7120F350915C4DE9B44F4C4B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				C21010296F9844348F0BA7BC /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				5F700426D53B4D49A2A10EF7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				195BDB4C7C0E4915B3A3773D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12FC111A3BC41BEA8DD662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C33F6D6F3A427CA53F00FF /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				5D55A3EFD4C84D0E817AEE74 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				442D9A12399942B5A0D2AEDB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				CFDFC7F5B4BA435E8091D6DB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				CAEABAA39F4D4642B95AD249 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				F624476C5C554BB4B7FE7D43 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				ABC9CEB333614BEEB19608F7 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDC2856984248E6ADB61B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7596AA564DEE4F3CADBB9F3A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				3A04266E5D814DD6A286AA9D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				F19C27BC1E854F7AB2B83694 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				49FC6E4C8ED645AF96CFF7A3 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				244F620AEE8643F9BFC534A6 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65A454FBF0A468986C96CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB7DD9FC67B431AADC561B2 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				9CB5BE02B7A54B6788DF0D16 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				5FCF9D7A1EC24B01A7C6AE3C /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		776AC35085B84A50A8D59087 /* Copy files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Snapshots;
+			dstSubfolderSpec = 7;
+			files = (
+				EEAF2DB3153947AF905F2003 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				5AA509FB756E4FF8AE09D54E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				E8074C70536741429142CE43 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				442A962B8F864519A8EF0E18 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4208B99A16A34B5CB50AE47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334E3618FB94226AA288D58 /* ZERO_CHECK */;
+			targetProxy = 2F68C52B9D574E9CA0B7CB6F /* PBXContainerItemProxy */;
+		};
+		4568F8E6A5B348F2A60266EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334E3618FB94226AA288D58 /* ZERO_CHECK */;
+			targetProxy = 211BD149C2174999A6354574 /* PBXContainerItemProxy */;
+		};
+		54A835C691484C0DA3201669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334E3618FB94226AA288D58 /* ZERO_CHECK */;
+			targetProxy = 1B4AB73965684C5EAE55D775 /* PBXContainerItemProxy */;
+		};
+		717B73FF0B3740F2AD85C2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48FF45361E3E46E398D56D73 /* again */;
+			targetProxy = A0F7763E55B44C12B0320733 /* PBXContainerItemProxy */;
+		};
+		EE344A5CA53146869F881931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A519F0CC41B84E408B480E63 /* againsimple */;
+			targetProxy = DFE7FE180AD747FDBFDF213B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0575B9C88B344001AF3F733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/again.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui_support.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libpluginterfaces.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui_uidescription.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.again;
+				PRODUCT_NAME = again;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/again.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		09D25F91229E47D0A3DD5D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",againsimple_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/againsimple.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui_support.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libpluginterfaces.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui_uidescription.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
+				PRODUCT_NAME = againsimple;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/againsimple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		17C8CE57962045A7B20EEDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		41018B2B93F1466C9B2E3C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Project/build/build;
+			};
+			name = Release;
+		};
+		56CD9DA13D7B4872B17E777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",againsimple_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/againsimple.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui_support.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libpluginterfaces.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui_uidescription.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
+				PRODUCT_NAME = againsimple;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/againsimple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		7B246BEB302C4F4294A2A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/again.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui_support.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libpluginterfaces.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui_uidescription.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.again;
+				PRODUCT_NAME = again;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/again.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		7DDD52A6BC7246EC85846FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		81C07EE7BE094AE28C93983F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Project/build/build;
+			};
+			name = Debug;
+		};
+		B28CFEF2034D4D2BB07669AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B8099BFA91FF4A979E0A8A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B036DA9FA354ADDA14E2E63 /* Build configuration list for PBXProject "smtg-vst3-again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C07EE7BE094AE28C93983F /* Debug */,
+				41018B2B93F1466C9B2E3C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A15ADC48D7D44688AC22A77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8099BFA91FF4A979E0A8A11 /* Debug */,
+				B28CFEF2034D4D2BB07669AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		683F0EA330F44439833A1FCE /* Build configuration list for PBXNativeTarget "again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B246BEB302C4F4294A2A798 /* Debug */,
+				0575B9C88B344001AF3F733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7725738B0354498BB077D02 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C8CE57962045A7B20EEDFE /* Debug */,
+				7DDD52A6BC7246EC85846FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F486476A15EF4A6DAEBA56C8 /* Build configuration list for PBXNativeTarget "againsimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CD9DA13D7B4872B17E777E /* Debug */,
+				09D25F91229E47D0A3DD5D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF41F3934D804F089C0EADFF /* Project object */;
+}

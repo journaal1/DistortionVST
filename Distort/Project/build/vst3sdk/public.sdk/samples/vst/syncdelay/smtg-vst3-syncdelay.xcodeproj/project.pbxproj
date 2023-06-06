@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7334E3618FB94226AA288D58 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EC3F5C1555D4D399D28CC06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E3DE1C33677E5280A0A28F3D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		95A90AF4D531425294864E4A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77856D116D17400B997DD19D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2055A6A5FF85434837C06ED9 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0BCF562347C54DBF90D00B67 /* PBXTargetDependency */,
+				662E3700730D42208DF35785 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12B2B103B4AD4D0886AC0C08 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.h */ = {isa = PBXBuildFile; fileRef = 71FADDBEB3194E7C9B9E6F3F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.h */; };
+		176865EED98E4171AE1BDDF9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 609339558B8B497781412D69 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.cpp */; };
+		2DF555835ECC41BE9BA82897 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayfactory.cpp */ = {isa = PBXBuildFile; fileRef = 5E661E4024F74B0AA73962C3 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayfactory.cpp */; };
+		47FE2B92A25448D0A8E97841 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/sync.h */ = {isa = PBXBuildFile; fileRef = DA1B98A1D1C447AD8350BAAB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/sync.h */; };
+		80AE9DFD56624839B51B2B8B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.cpp */ = {isa = PBXBuildFile; fileRef = 3E2CCD239CE94D3C844FE891 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.cpp */; };
+		89E34246279644F197559618 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = DCF7BB839C10406E9FFB64B1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		8CCAC9347F934B39B11EAB8F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BD438E11E3BC4FE59762F5CA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */; };
+		BF78AB3E40AC42688E221069 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayversion.h */ = {isa = PBXBuildFile; fileRef = B13293EE88664040A330177E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayversion.h */; };
+		CDBA45F1CFCA432394B3017A /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayids.h */ = {isa = PBXBuildFile; fileRef = 108601645D2B46BDB7F10AA2 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayids.h */; };
+		F944D18CAC0A49D59037C43D /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.h */ = {isa = PBXBuildFile; fileRef = CC7EB9A8B1A94713882C6E50 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		032E8DEC7D4049F1A7EE69C1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AFE6CCB9A9264209926D0242 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		52035BCFA83E45909DFD7B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95463F8227B3413993DEFC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334E3618FB94226AA288D58;
+			remoteInfo = ZERO_CHECK;
+		};
+		5A292FCCA30E45E5815F1097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95463F8227B3413993DEFC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334E3618FB94226AA288D58;
+			remoteInfo = ZERO_CHECK;
+		};
+		E695961F55A742A18DC40F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95463F8227B3413993DEFC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035A9ECB3E874671BFDB6139;
+			remoteInfo = syncdelay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108601645D2B46BDB7F10AA2 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = syncdelayids.h; path = source/syncdelayids.h; sourceTree = SOURCE_ROOT; };
+		3E2CCD239CE94D3C844FE891 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = syncdelaycontroller.cpp; path = source/syncdelaycontroller.cpp; sourceTree = SOURCE_ROOT; };
+		5E661E4024F74B0AA73962C3 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayfactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = syncdelayfactory.cpp; path = source/syncdelayfactory.cpp; sourceTree = SOURCE_ROOT; };
+		609339558B8B497781412D69 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = syncdelayprocessor.cpp; path = source/syncdelayprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		71FADDBEB3194E7C9B9E6F3F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = syncdelayprocessor.h; path = source/syncdelayprocessor.h; sourceTree = SOURCE_ROOT; };
+		7EF0D82FB2C245ABBB7142F9 /* syncdelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = syncdelay.bundle/Contents/MacOS/syncdelay; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13293EE88664040A330177E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = syncdelayversion.h; path = source/syncdelayversion.h; sourceTree = SOURCE_ROOT; };
+		BD438E11E3BC4FE59762F5CA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CC7EB9A8B1A94713882C6E50 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = syncdelaycontroller.h; path = source/syncdelaycontroller.h; sourceTree = SOURCE_ROOT; };
+		DA1B98A1D1C447AD8350BAAB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/sync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sync.h; path = source/sync.h; sourceTree = SOURCE_ROOT; };
+		DCF7BB839C10406E9FFB64B1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		E870BDCE96084B63BF42E26B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBCCC0B4A7B42DD94A2069D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D53B47C7AC748BEAA590C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF0D82FB2C245ABBB7142F9 /* syncdelay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		135F97A2BBB144A7926888EB /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				AE56E193E27A49769A51A8E0 /* syncdelay */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		1B19D17D59FA4AC9AD04672D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68CE65E89D3A47B995C8A9C9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B98A1D1C447AD8350BAAB /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/sync.h */,
+				CC7EB9A8B1A94713882C6E50 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.h */,
+				108601645D2B46BDB7F10AA2 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayids.h */,
+				71FADDBEB3194E7C9B9E6F3F /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.h */,
+				B13293EE88664040A330177E /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayversion.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AE56E193E27A49769A51A8E0 /* syncdelay */ = {
+			isa = PBXGroup;
+			children = (
+				68CE65E89D3A47B995C8A9C9 /* Header Files */,
+				F2339C8E2DA046B08859E2DF /* Source Files */,
+				BD438E11E3BC4FE59762F5CA /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */,
+			);
+			name = syncdelay;
+			sourceTree = "<group>";
+		};
+		D2181A9871F44C808C93B1DC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D317FEE000C94C758F35262C = {
+			isa = PBXGroup;
+			children = (
+				135F97A2BBB144A7926888EB /* PlugInExamples */,
+				FFDF59290FD6433EBAE6D255 /* ALL_BUILD */,
+				0D53B47C7AC748BEAA590C21 /* Products */,
+				1B19D17D59FA4AC9AD04672D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2339C8E2DA046B08859E2DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CCD239CE94D3C844FE891 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.cpp */,
+				5E661E4024F74B0AA73962C3 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayfactory.cpp */,
+				609339558B8B497781412D69 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.cpp */,
+				DCF7BB839C10406E9FFB64B1 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FFDF59290FD6433EBAE6D255 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D2181A9871F44C808C93B1DC /* CMake Rules */,
+				E870BDCE96084B63BF42E26B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035A9ECB3E874671BFDB6139 /* syncdelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880867958D9F473881E1B426 /* Build configuration list for PBXNativeTarget "syncdelay" */;
+			buildPhases = (
+				5B17775C429421D103C372A3 /* CMake PreBuild Rules */,
+				D2898E13E4FB476B8CF46AD4 /* Sources */,
+				4CBCCC0B4A7B42DD94A2069D /* Frameworks */,
+				D3CA8E1210AE6F6CADD8DC34 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675BCC0996F8434DA5EF8AD7 /* PBXTargetDependency */,
+			);
+			name = syncdelay;
+			productName = syncdelay;
+			productReference = 7EF0D82FB2C245ABBB7142F9 /* syncdelay */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95463F8227B3413993DEFC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 12BE1C41E506403F962769A6 /* Build configuration list for PBXProject "smtg-vst3-syncdelay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				032E8DEC7D4049F1A7EE69C1 /* Debug */,
+				AFE6CCB9A9264209926D0242 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D317FEE000C94C758F35262C;
+			projectDirPath = /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay;
+			projectRoot = "";
+			targets = (
+				95A90AF4D531425294864E4A /* ALL_BUILD */,
+				7334E3618FB94226AA288D58 /* ZERO_CHECK */,
+				035A9ECB3E874671BFDB6139 /* syncdelay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2055A6A5FF85434837C06ED9 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5B17775C429421D103C372A3 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D3CA8E1210AE6F6CADD8DC34 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Debug/validator /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3 
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug/syncdelay.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/moduleinfotool -create -version 3.7.8.0 -path /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3 -output /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  codesign -f -s - -v /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/bin
+  /Users/sirbarry/Documents/Vst/Distort/Project/build/bin/Release/validator  /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release/syncdelay.vst3 /Users/sirbarry/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E3DE1C33677E5280A0A28F3D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  make -f /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay
+  make -f /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2898E13E4FB476B8CF46AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE9DFD56624839B51B2B8B /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelaycontroller.cpp */,
+				2DF555835ECC41BE9BA82897 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayfactory.cpp */,
+				176865EED98E4171AE1BDDF9 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/samples/vst/syncdelay/source/syncdelayprocessor.cpp */,
+				89E34246279644F197559618 /* /Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BCF562347C54DBF90D00B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035A9ECB3E874671BFDB6139 /* syncdelay */;
+			targetProxy = E695961F55A742A18DC40F66 /* PBXContainerItemProxy */;
+		};
+		662E3700730D42208DF35785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334E3618FB94226AA288D58 /* ZERO_CHECK */;
+			targetProxy = 5A292FCCA30E45E5815F1097 /* PBXContainerItemProxy */;
+		};
+		675BCC0996F8434DA5EF8AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334E3618FB94226AA288D58 /* ZERO_CHECK */;
+			targetProxy = 52035BCFA83E45909DFD7B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B85A5023614C0686FF9F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5DC6143EA59F4D8EA2C06346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",syncdelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeFiles/syncdelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.syncdelay;
+				PRODUCT_NAME = syncdelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/syncdelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		5DE8CFA0E91741F989B3FADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sirbarry/Documents/Vst/Distort/Project/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",syncdelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk,/Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/public.sdk/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/base/..,/Users/sirbarry/Documents/Vst/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/sirbarry/Documents/Vst/Distort/Project/build/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeFiles/syncdelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libsdk_common.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libbase.a,/Users/sirbarry/Documents/Vst/Distort/Project/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.syncdelay;
+				PRODUCT_NAME = syncdelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sirbarry/Documents/Vst/Distort/Project/build/build/syncdelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		628EF7606B9C48E78211C370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8F83E84453044EF8AEE1D2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AD99C84235324F58B809DC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Project/build/build;
+			};
+			name = Debug;
+		};
+		D613E9EAA6C847C9A6107553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E511175E8703460B94051650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sirbarry/Documents/Vst/Distort/Project/build/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BE1C41E506403F962769A6 /* Build configuration list for PBXProject "smtg-vst3-syncdelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99C84235324F58B809DC55 /* Debug */,
+				E511175E8703460B94051650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EC3F5C1555D4D399D28CC06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D613E9EAA6C847C9A6107553 /* Debug */,
+				10B85A5023614C0686FF9F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77856D116D17400B997DD19D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F83E84453044EF8AEE1D2BF /* Debug */,
+				628EF7606B9C48E78211C370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		880867958D9F473881E1B426 /* Build configuration list for PBXNativeTarget "syncdelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE8CFA0E91741F989B3FADF /* Debug */,
+				5DC6143EA59F4D8EA2C06346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95463F8227B3413993DEFC0D /* Project object */;
+}
